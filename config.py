@@ -3,9 +3,9 @@ from dotenv import load_dotenv
 
 load_dotenv("config.env")
 
-API_ID = int(getenv("API_ID", 0))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-OPENAI_API = getenv("OPENAI_API", "") # get api key : https://platform.openai.com/account/api-keys
-MONGO_URL = getenv("MONGO_URL", "") # required https://mongodb.com
-ADMINS = int(getenv("ADMINS", 123456789))
+API_ID = 29472662
+API_HASH = b0498eb513a3e2edb10ba4d713dd6dee
+BOT_TOKEN = 6149508370:AAEJhvA4p9Q0ar0H391I1GBSHt0Zw8xU1bk
+OPENAI_API = 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
+MONGO_URL = mongodb+srv://wynne:wynne@cluster0.5uhhxlj.mongodb.net/?retryWrites=true&w=majority
+ADMINS = 1428194265
